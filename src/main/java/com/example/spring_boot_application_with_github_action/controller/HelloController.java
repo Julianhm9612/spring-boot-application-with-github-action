@@ -10,6 +10,6 @@ public class HelloController {
     
     @GetMapping(value = "/salutacion")
     public String chat(){
-        return "Salutación, muestra las piedras blancas!";
+        return "Salutación, muestra las piedras blancas cuerpo de gelatina!";
     }
 }
